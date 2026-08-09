@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Your Name — Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="bg"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div></div>
+<div class="cursor-glow"></div>
+
+<header class="site-header">
+  <div class="wrap hero">
+    <div class="id">ARCHIVES</div>
+    <h1>AZ's Hub</h1>
+    <p>A curated archive of design projects, software, technical notes and ideas — documenting what I build and what I learn along the way.</p>
+    <nav>
+      <a href="index.html">Index</a>
+      <a href="#" onclick="return false;">About</a>
+      <a href="#" onclick="return false;">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="filters">
+    <div class="filter-flag active" data-type="all">All</div>
+    <div class="filter-flag" data-type="design">Design</div>
+    <div class="filter-flag" data-type="software">Resources</div>
+    <div class="filter-flag" data-type="notes">Solved Problems</div>
+    <div class="filter-flag" data-type="ideas & research">Ideas & Research</div>
+  </div>
+
+  <div class="catalog">
+
+    <a class="entry" data-type="design" href="design/example-project.html">
+      <div class="meta"><span>№ 001</span><span class="tag">🎨 Design</span></div>
+      <h2>Design Project</h2>
+      <p>Case studies, branding, before & after transformations</p>
+    </a>
+
+    <a class="entry" data-type="software" href="software/example-tool.html">
+      <div class="meta"><span>№ 002</span><span class="tag">💻 Software</span></div>
+      <h2>Useful Tools</h2>
+      <p>Apps, scripts, automations, and tools I've built.</p>
+    </a>
+
+    <a class="entry" data-type="notes" href="notes/example-note.html">
+      <div class="meta"><span>№ 003</span><span class="tag">📚 Notes</span></div>
+      <h2>Solved problems</h2>
+      <p>Technical notes, troubleshooting, and lessons learned.</p>
+    </a>
+    
+        <a class="entry" data-type="ideas & research" href="ideas%20%26%20research/example-idea.html">
+      <div class="meta"><span>№ 004</span><span class="tag">🔬 Ideas & Research</span></div>
+      <h2>Ideas & Research</h2>
+      <p>Exploring concepts, experiments, and research findings.</p>
+    </a>
+
+  </div>
+
+</main>
+
+<footer class="site-footer">Built with simplicity • AZ's Hub.</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
